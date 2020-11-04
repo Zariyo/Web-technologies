@@ -1,0 +1,99 @@
+*
+{
+    font-family: "Arial";
+}
+
+h1
+{
+    color: darkblue;
+    padding-bottom: 30px;
+}
+
+tr:first-of-type
+{
+    background-color: rgb(50, 50, 255);
+    color: white;
+    letter-spacing: 4px;
+}
+
+tr>th:first-of-type{
+    padding: 20px;
+}
+
+.head>th:first-of-type
+{
+    border-top-left-radius: 20px;
+}
+
+.head>th:last-of-type
+{
+    border-top-right-radius: 20px;
+}
+.head>th{
+    text-align: center;
+}
+
+tr{
+    background-color: powderblue;
+}
+
+.even
+{
+    background-color: whitesmoke;
+}
+
+td>div{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+tr>th
+{
+    text-align: left;
+}
+table{
+    background-color: rgb(50, 50, 255);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+fieldset
+{
+    border-radius: 15px;
+    display: inline-block;
+    padding-top: 15px;
+    padding-right: 40px;
+    margin-top: 40px;
+}
+fieldset>legend{
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+fieldset>div>label{
+    padding-right: 30px;
+
+}
+fieldset>div>input{
+    float: right;
+    width: 250px;
+}
+fieldset>div{
+    padding-bottom: 10px;
+}
+select
+{
+    float: right;
+    width: 100px;
+}
+button{
+    background-color: rgb(50, 50, 255);
+    color: white;
+    letter-spacing: 1px;
+    height: 36px;
+    width: 150px;
+    padding: 6px;
+    border: none;
+    margin: 10px;
+    margin-left: 270px;
+}

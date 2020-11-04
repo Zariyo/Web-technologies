@@ -1,0 +1,58 @@
+.content {
+    width: 250px;
+    margin: 0 auto;
+    line-height: 1.5rem;
+}
+
+h2 {
+    letter-spacing: 7px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact {
+    background-color: papayawhip;
+    border: black 1px solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.contact > span {
+    display: block;
+}
+
+span.name {
+    font-size: 18px;
+    color: crimson;
+    letter-spacing: 3px;
+    text-align: center;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+span.address {
+    padding-left: 5px;
+    border-left: black 3px double;
+    letter-spacing: 1px;
+}
+
+span.address > span {
+    display: block;
+}
+span.address > span:first-of-type {
+    color: green;
+    font-weight: bold;
+}
+
+span.mail {
+    color: steelblue;
+    font-style: italic;
+}
+
+span.phone {
+    letter-spacing: 1px;
+}

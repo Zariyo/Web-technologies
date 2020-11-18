@@ -1,34 +1,31 @@
-.A {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-  border: solid blue;
-  background-color: lightblue;
-  width: 200px;
-  height: 100px;
-  text-align: center;
+div
+{
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    bottom: 0;
+    margin-right: auto; 
+    margin-bottom: auto;
+    width: 200px;
+    height: 100px;
+    text-align: center;
 }
 
-.B {
-  background-color: palevioletred;
-  border: solid red;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  top: 50%;
-  margin-left: 50%;
-  margin-right: auto;
-  margin-top: -20px;
-  margin-bottom: auto;
-  width: 200px;
-  height: 100px;
-  text-align: center;
+.A
+{
+    left: -100px;
+    top: 0;
+    margin-left: auto; 
+    margin-top: auto;
+    border: solid blue;
+    background-color: lightblue;
 }
-/*# sourceMappingURL=zad_01.css.map */
+.B
+{
+    background-color: palevioletred;
+    border: solid red;
+    top: 50%;
+    margin-left: calc(50% - 101px);
+    left: 60px;
+    margin-top: -20px;
+}

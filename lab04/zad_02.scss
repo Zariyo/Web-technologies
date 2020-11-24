@@ -1,0 +1,51 @@
+#nav
+{
+    background-color: whitesmoke;
+    text-align: center;
+    height: auto;
+    position: sticky;
+    top: 0px;
+
+}
+span.nav-item:first-of-type
+{
+    margin-left: 0px;
+}
+span.nav-item
+{
+    :link
+    {
+        color: red;
+        text-decoration: none;
+    }
+    :hover
+    {
+        color: blue;
+    }
+    :visited
+    {
+        color: green;
+    }
+    :visited:hover
+    {
+        color:blue;
+    }
+    display: inline-block;
+    text-align: center;
+    margin-left: 50px;
+    font-size: 36px;
+    text-transform: uppercase;
+    height: 100px;
+    line-height: 100px;
+}
+
+body
+{
+    background-color: lightgray;
+}
+#content
+{
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: justify;
+}

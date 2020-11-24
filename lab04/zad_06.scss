@@ -1,0 +1,43 @@
+@for $i from 1 through 10
+    {
+    .kolor-#{$i}
+    {
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    @if $i%3==1
+    {
+        background-color: yellow;
+    }
+    @else if $i%3==2
+    {
+        background-color: red;
+    }
+    @else if $i%3==0
+    {
+        background-color: orange;
+    }
+    @if $i%4==1
+    {
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+    @if $i%4==2
+    {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    @if $i%4==3
+    {
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+    @if $i%4==0
+    {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+    }

@@ -1,0 +1,174 @@
+body {
+    background-color: rgb(28, 30, 33);
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+ }
+
+ body{
+     width: 1000px;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ .header{
+     display: flex;
+ .logo{
+     background-color: aqua;
+     display: block;
+     height: 100px;
+     width: 100px;
+     border-radius: 60px;
+     border: 10px solid #222222
+ }
+ .fa-camera{
+    position: relative;
+    top: 70%;
+    right: 90%;
+    padding: 5px;
+    background-color:rgba(255,255,255, 0.1);
+    border-radius: 20px;
+}
+.name{
+    align-self: flex-end;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+ }
+ .nav{
+    display: flex;
+.box.menu{
+    background-color: #222222;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    .menu-list{
+
+        .menu-item{
+            display: inline-flex;
+            /*flex-basis: 100px;*/
+            padding: 10px;
+
+            list-style-type: none;
+            a{
+                text-decoration: none;
+                color: gray;
+            }
+        }
+        .menu-item:hover{
+            background-color: #444444;
+            border-radius: 10px;
+        }
+    }
+}
+ }
+ .buttons{
+    position: relative;
+    align-self: center;
+    left: 400px;
+ 
+.btn{
+    background-color: #333333;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    align-self: flex-end;
+}
+ }
+
+.container{
+    display: grid;
+    grid-template-columns: 333px 666px;
+    .left{
+        background-color: #333333;
+        margin: 16px;
+        border-radius: 20px;
+        color: whitesmoke;
+        height: 450px;
+        .photos{
+            display: grid;
+            grid-template-columns: repeat(3, 100px [col-start]);
+            grid-template-rows: repeat(3, 100px [col-start]);
+            .photo{
+                margin: 8px;
+                border-radius: 10px;
+                text-indent: -9999px;
+                text-align: center;
+                padding: 20px;
+                font-size: 30px;
+                color:whitesmoke;
+                
+            }
+            .photo:hover{
+                text-indent: 0px;
+                text-align: center;
+            }
+            .photo:first-of-type{
+                background-color:lightblue;
+            }
+            .photo:nth-of-type(2){
+                background-color:lightcoral;
+            }
+            .photo:nth-of-type(3){
+                background-color:lightsteelblue;
+            }
+            .photo:nth-of-type(4){
+                background-color:lightgreen;
+            }
+            .photo:nth-of-type(5){
+                background-color:lightsalmon;
+            }
+            .photo:nth-of-type(6){
+                background-color:lightslategrey;
+            }
+            .photo:nth-of-type(7){
+                background-color:lightgray;
+            }
+            .photo:nth-of-type(8){
+                background-color:lightpink;
+            }
+            .photo:nth-of-type(9){
+                background-color:lightseagreen;
+            }
+    }
+}
+    .right{
+        background-color: #333333;
+        margin: 20px;
+        border-radius: 20px;
+        color: #888888;
+        text-align: left;
+        p{
+            padding: 10px;
+        }
+        h3{
+            padding: 10px;
+            color:white;
+        }
+        .photos{
+            display: flex;
+            flex-wrap: wrap;
+            .photo{
+                background-color: #555555;
+                width: 200px;
+                height: 200px;
+                border: 1px solid black;
+                flex-grow: 1;
+            }
+            .photo:nth-of-type(4){
+                flex-grow: 2;
+            }
+            .photo:nth-of-type(5){
+                flex-grow: 2;
+            }
+        }
+    }
+    h2{
+        position: relative;
+        right: 80px;
+    }
+
+
+    }

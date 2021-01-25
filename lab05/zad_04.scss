@@ -1,0 +1,33 @@
+
+#outer{
+    height: 100vh;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    resize: vertical;
+    overflow: auto;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    max-width: 50%;
+    top: auto;
+
+
+}
+.box:first-of-type{
+    background-color: lightgray;
+}
+.box:nth-of-type(2){
+    background-color: gray;
+}
+.box:nth-of-type(3){
+    background-color: darkgray;
+}

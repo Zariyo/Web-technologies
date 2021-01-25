@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(4, 125px [col-start]);
+    grid-template-rows: repeat(2 , 200px);
+    justify-content: center;
+    text-align: center;
+}
+
+.A{
+    grid-row: 1 / span 2;
+    background-color: orangered;
+}
+
+.B{
+    grid-column: 2 / span 2;
+    background-color: wheat;
+    grid-row: 1;
+}
+
+.C{
+    background-color: skyblue;
+    grid-column: 2 / span 2;
+}
+
+.D{
+    grid-row: 1 / span 2;
+    background-color: limegreen;
+}

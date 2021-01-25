@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1000px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 400px;
+}
+
+.A{
+    align-self: flex-end;
+    min-width: 160px;
+    background-color: orangered;
+    height: 320px;
+    order: 1;
+}
+
+.B{
+    background-color: wheat;
+    flex: 1 1 160px;
+    order: 2;
+}
+
+.C{
+    background-color: skyblue;
+    flex: 1 1 160px;
+    order: 2;
+}
+
+.D{
+    max-width: 160px;
+    flex: 1 1 320px;
+    background-color: limegreen;
+    order: 3;
+}

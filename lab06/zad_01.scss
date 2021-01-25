@@ -1,0 +1,25 @@
+
+.content{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+}
+.color-plane{
+    border:solid black 1px;
+    background-color: blue;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    
+}
+
+@for $i from 1 through 25{
+    .color-plane:nth-child(#{$i})
+    {
+        @if $i%2==0 {
+            background-color: burlywood;
+        }   @else {
+            background-color: gray;
+        }
+    }
+}

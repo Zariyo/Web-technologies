@@ -1,11 +1,4 @@
-# Wiktor Płużek
-lab01
-zad 1-5 zrobione
-problemy z listami
+# Basic HTML focused on CSS and SASS styling
 
-lab02
-brak problemów z zadaniami
-
-lab03
-problem z zad 7
-
+Hi!  
+In this repository i put all of my progress learning basic HTML, CSS and SASS
